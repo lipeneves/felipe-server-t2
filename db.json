@@ -1,25 +1,50 @@
 {
   "products": [
     {
+      "id": 0,
       "name": "The Legend of Zelda",
       "price": 200,
       "image": "https://www.mobygames.com/images/covers/l/384053-the-legend-of-zelda-breath-of-the-wild-limited-edition-nintendo-switch-front-cover.jpg",
       "offer": false,
-      "category": ["RPG", "Aventura"],
+      "category": [2, 1],
       "description": "Entre em um mundo de descobertas, exploração e aventura em The Legend of Zelda: Breath of the Wild",
-      "discount": 2,
-      "id": 1
+      "discount": 2
     },
     {
+      "id": 1,
       "name": "Super Mario 64",
       "price": 150,
       "image": "https://preview.redd.it/96e9f3itf0i51.jpg?width=640&crop=smart&auto=webp&s=c65017570a6898c12c7352ec6c7072d9c253055c",
       "offer": false,
-      "category": ["Classico", "Aventura"],
+      "category": [5, 1],
       "description": "Super Mario 64 é um jogo eletrônico de plataforma tridimensional (3D) no qual o jogador controla Mario através de várias fases",
-      "discount": 2,
-      "id": 2
+      "discount": 2
     }
   ],
-  "categories": ["Ação", "Aventura", "RPG", "Esportes", "Estratégia", "Classico"]
+  "categories": [
+    {
+      "id": 0,
+      "name": "Ação"
+    },
+    {
+      "id": 1,
+      "name": "Aventura"
+    },
+    {
+      "id": 2,
+      "name": "RPG"
+    },
+    {
+      "id": 3,
+      "name": "Esportes"
+    },
+    {
+      "id": 4,
+      "name": "Estratégia"
+    },
+    {
+      "id": 5,
+      "name": "Clássico"
+    }
+  ]
 }
