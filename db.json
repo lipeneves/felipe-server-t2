@@ -1,35 +1,25 @@
 {
   "products": [
     {
-      "name": "G29",
-      "price": "1700",
-      "category": "phone",
+      "name": "The Legend of Zelda",
+      "price": 200,
+      "image": "https://www.mobygames.com/images/covers/l/384053-the-legend-of-zelda-breath-of-the-wild-limited-edition-nintendo-switch-front-cover.jpg",
+      "offer": false,
+      "category": ["RPG", "Aventura"],
+      "description": "Entre em um mundo de descobertas, exploração e aventura em The Legend of Zelda: Breath of the Wild",
+      "discount": 2,
       "id": 1
     },
     {
-      "name": "Macbook",
-      "price": "15000",
-      "category": "informatica",
+      "name": "Super Mario 64",
+      "price": 150,
+      "image": "https://preview.redd.it/96e9f3itf0i51.jpg?width=640&crop=smart&auto=webp&s=c65017570a6898c12c7352ec6c7072d9c253055c",
+      "offer": false,
+      "category": ["Classico", "Aventura"],
+      "description": "Super Mario 64 é um jogo eletrônico de plataforma tridimensional (3D) no qual o jogador controla Mario através de várias fases",
+      "discount": 2,
       "id": 2
     }
   ],
-  "categories": [],
-  "person": [
-    {
-      "name": "Rafael",
-      "id": 1
-    },
-    {
-      "name": "Felipe",
-      "id": 2
-    },
-    {
-      "name": "Bruno",
-      "id": 3
-    },
-    {
-      "name": "Denise",
-      "id": 4
-    }
-  ]
+  "categories": ["Ação", "Aventura", "RPG", "Esportes", "Estratégia", "Classico"]
 }
